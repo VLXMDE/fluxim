@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: example-app
-        image: docker.io/demvx007/example-app:0.0.0 # {"$imagepolicy": "default:example-app:0.0.0"}
+        image: docker.io/demvx007/example-app:0.0.0 # {"$imagepolicy": "default:example-app"}
         ports:
         - containerPort: 5000
         resources:
