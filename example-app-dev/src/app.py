@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World! v1 fluxim V3"
+    return "fluxim 0.0.2"
