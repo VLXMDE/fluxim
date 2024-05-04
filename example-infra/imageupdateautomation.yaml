@@ -20,5 +20,5 @@ spec:
     push:
       branch: main
   update:
-    path: ./deploy/deployment.yaml
+    path: ./example-infra/deploy/deployment.yaml
     strategy: Setters
