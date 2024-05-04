@@ -18,7 +18,7 @@ metadata:
   namespace: fluxim
 spec:
   interval: 15m
-  path: "./example-app/deploy"
+  path: "./deploy"
   prune: true
   sourceRef:
     kind: GitRepository
